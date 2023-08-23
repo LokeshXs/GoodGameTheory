@@ -1,0 +1,65 @@
+.loginSection{
+  width: 100vw;
+  margin-top: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 4rem;
+  border: 2px solid #000;
+  border-radius: 2rem;
+}
+
+.loginForm input{
+  padding: 1rem;
+  width: 30rem;
+  border-radius: 2rem;
+  border: 2px solid #000;
+  font-size: 1.6rem;
+}
+
+.loginForm button{
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 2rem;
+  background-color: #000;
+  border: none;
+  color: #fff;
+}
+
+
+/* RESPONSIVENESS */
+
+@media(max-width:27em){
+  .loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    border: 2px solid #000;
+    border-radius: 2rem;
+  }
+
+  .loginForm input{
+    padding: 1rem;
+    width: 24rem;
+    border-radius: 2rem;
+    border: 2px solid #000;
+    font-size: 1.6rem;
+  }
+  .loginSection{
+    width: 100vw;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
